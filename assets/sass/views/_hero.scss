@@ -1,0 +1,34 @@
+@use '../utilities/mixins' as m;
+@use '../utilities/variables' as v;
+
+.hero-wrap {
+    padding-top: v.$section-padding-medium;
+    @include m.flex-center(3rem);
+}
+
+.hero-img {
+    width: 350px;
+    height: 450px;
+    border: 4px solid v.$color-accent;
+    border-radius: 5px;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+    font-size: v.$text-md;
+    line-height: 1.6;
+    border: 2px solid v.$color-border-muted;
+    border-radius: 12px;
+    padding: 1.5rem;
+}

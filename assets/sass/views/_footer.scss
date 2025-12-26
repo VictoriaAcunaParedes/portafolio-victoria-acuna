@@ -1,0 +1,41 @@
+@use '../utilities/variables' as v;
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form button {
+    background-color: #000308;
+    color: #d6d3d3;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+.footer-divider {
+    border: none;
+    height: 2px;
+    width: 60%;
+    margin: 4rem auto;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #d6c9b6,
+        transparent
+    );
+}
+
+.social-link {
+    color: v.$color-text-main;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+    color: v.$color-accent;
+    transform: scale(1.5);
+}

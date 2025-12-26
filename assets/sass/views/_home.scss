@@ -1,0 +1,13 @@
+@use '../utilities/variables' as v;
+@use '../utilities/mixins' as m;
+
+@use 'hero';
+@use 'about';
+@use 'projects';
+@use 'footer';
+
+body {
+    background-color: v.$color-bg-main;
+    color: v.$color-text-main;
+}
+

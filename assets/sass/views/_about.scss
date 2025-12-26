@@ -1,0 +1,11 @@
+@use '../utilities/variables' as v;
+
+.about {
+    padding: v.$section-padding-large;
+    background-image: url(../img/dark-back.jpg);
+}
+
+.about p {
+    font-size: 1.5rem;
+    text-align: center;
+}
